@@ -11,8 +11,8 @@ namespace GroupDocs.Signature.Cloud.Examples.CSharp
 			//// ***********************************************************
 
 			//TODO: Get your AppSID and AppKey at https://dashboard.groupdocs.cloud (free registration is required).
-			Common.MyAppSid = "XXXXX-XXXXX-XXXXX-XXXXX";
-			Common.MyAppKey = "XXXXXXXXXX";
+			Common.MyAppSid = "XXXXX-XXXXX-XXXXX-XXXXX-XXXXX";
+			Common.MyAppKey = "XXXXXXXXXXXXXXX";
 			Common.MyStorage = "XXXXX";
 
 			//// Uploading sample test files from local to storage under folder 'Signaturedocs'
