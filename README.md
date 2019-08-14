@@ -11,9 +11,37 @@ This repository contains [Examples](Examples) projects for [GroupDocs.Signature 
   </a>
 </p>
 
-Directory | Description
---------- | -----------
-[Examples](Examples)  | A collection of .NET Cloud SDK examples that help you learn the product features
+
+## How to use the SDK?
+The complete source code is available in this repository folder. You can either directly use it in your project via source code or get [NuGet distribution](https://www.nuget.org/packages/GroupDocs.Signature-Cloud/) (recommended). For more details, please visit our [documentation website](https://docs.groupdocs.cloud/display/signaturecloud/Available+SDKs).
+
+### Prerequisites
+
+To use GroupDocs.Signature Cloud .NET SDK you need to register an account with [GroupDocs Cloud](https://groupdocs.cloud) and lookup/create App Key and SID at [Cloud Dashboard](https://dashboard.groupdocs.cloud/#/apps). There is free quota available. For more details, see [GroupDocs Cloud Pricing](https://purchase.groupdocs.cloud/pricing).
+
+### Installation
+
+#### Install GroupDocs.Signature Cloud via NuGet
+
+From the command line:
+
+	nuget install GroupDocs.Signature Cloud
+
+From Package Manager:
+
+	PM> Install-Package GroupDocs.Signature Cloud
+
+From within Visual Studio:
+
+1. Open the Solution Explorer.
+2. Right-click on a project within your solution.
+3. Click on *Manage NuGet Packages...*
+4. Click on the *Browse* tab and search for "GroupDocs.Signature Cloud".
+5. Click on the GroupDocs.Signature Cloud package, select the appropriate version in the right-tab and click *Install*.
+
+## Dependencies
+- .NET Framework 2.0 or later
+- [Json.NET](https://www.nuget.org/packages/Newtonsoft.Json/)
 
 ## Resources
 
