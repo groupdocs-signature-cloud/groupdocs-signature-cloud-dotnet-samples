@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5057BAC4-1FAC-4107-8B71-0064D60A8431}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>GroupDocs.Signature.Cloud.Examples</RootNamespace>
+    <AssemblyName>GroupDocs.Signature.Cloud.Examples</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>GroupDocs.Signature.Cloud.Examples.RunExamples</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GroupDocs.Signature.Cloud.Sdk, Version=20.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GroupDocs.Signature-Cloud.20.7.0-alpha-20200708055927\lib\net20\GroupDocs.Signature.Cloud.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvancedUsage\Delete\DeleteQRCode.cs" />
+    <Compile Include="AdvancedUsage\Delete\DeleteBarcode.cs" />
+    <Compile Include="AdvancedUsage\Update\UpdateQRCode.cs" />
+    <Compile Include="AdvancedUsage\Update\UpdateBarcode.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="AdvancedUsage\Search\SearchBarcode.cs" />
+    <Compile Include="AdvancedUsage\Search\SearchCollection.cs" />
+    <Compile Include="AdvancedUsage\Search\SearchDigital.cs" />
+    <Compile Include="AdvancedUsage\Search\SearchQRCode.cs" />
+    <Compile Include="AdvancedUsage\Verify\VerifyBarcode.cs" />
+    <Compile Include="AdvancedUsage\Verify\VerifyCollection.cs" />
+    <Compile Include="AdvancedUsage\Verify\VerifyDigital.cs" />
+    <Compile Include="AdvancedUsage\Verify\VerifyQRCode.cs" />
+    <Compile Include="AdvancedUsage\Verify\VerifyText.cs" />
+    <Compile Include="AdvancedUsage\Sign\CollectionSignature.cs" />
+    <Compile Include="AdvancedUsage\Sign\StampSignature.cs" />
+    <Compile Include="AdvancedUsage\Sign\DigitalSignature.cs" />
+    <Compile Include="AdvancedUsage\Sign\QRCodeSignature.cs" />
+    <Compile Include="AdvancedUsage\Sign\ImageSignature.cs" />
+    <Compile Include="AdvancedUsage\Sign\BarcodeSignature.cs" />
+    <Compile Include="AdvancedUsage\Sign\TextSignature.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RunExamples.cs" />
+    <Compile Include="BasicUsage\GetSupportedBarcodeTypes.cs" />
+    <Compile Include="BasicUsage\GetSupportedFormats.cs" />
+    <Compile Include="BasicUsage\GetDocumentInfo.cs" />
+    <Compile Include="BasicUsage\GetSupportedQrCodeTypes.cs" />
+    <Compile Include="BasicUsage\Storage\WorkingWithFiles\CopyFile.cs" />
+    <Compile Include="BasicUsage\Storage\WorkingWithFiles\DeleteFile.cs" />
+    <Compile Include="BasicUsage\Storage\WorkingWithFiles\DownloadFile.cs" />
+    <Compile Include="BasicUsage\Storage\WorkingWithFiles\MoveFile.cs" />
+    <Compile Include="BasicUsage\Storage\WorkingWithFiles\UploadFile.cs" />
+    <Compile Include="BasicUsage\Storage\WorkingWithFolder\CopyFolder.cs" />
+    <Compile Include="BasicUsage\Storage\WorkingWithFolder\CreateFolder.cs" />
+    <Compile Include="BasicUsage\Storage\WorkingWithFolder\DeleteFolder.cs" />
+    <Compile Include="BasicUsage\Storage\WorkingWithFolder\GetFilesList.cs" />
+    <Compile Include="BasicUsage\Storage\WorkingWithFolder\MoveFolder.cs" />
+    <Compile Include="BasicUsage\Storage\WorkingWithStorage\GetDiscUsage.cs" />
+    <Compile Include="BasicUsage\Storage\WorkingWithStorage\GetFileVersions.cs" />
+    <Compile Include="BasicUsage\Storage\WorkingWithStorage\ObjectExists.cs" />
+    <Compile Include="BasicUsage\Storage\WorkingWithStorage\StorageExist.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+  </Target>
+</Project>
