@@ -10,9 +10,9 @@ namespace GroupDocs.Signature.Cloud.Examples
             ////          GroupDocs.Signature Cloud API Examples
             //// ***********************************************************
 
-            //TODO: Get your AppSID and AppKey at https://dashboard.groupdocs.cloud (free registration is required).
-            Constants.MyAppSid = "XXXX-XXXX-XXXX-XXXX";
-            Constants.MyAppKey = "XXXXXXXXXXXXXXXX";
+            //TODO: Get your ClientId and ClientSecret at https://dashboard.groupdocs.cloud (free registration is required).
+            Constants.MyClientId = "XXXX-XXXX-XXXX-XXXX";
+            Constants.MyClientSecret = "XXXXXXXXXXXXXXXX";
             Constants.MyStorage = "First Storage";
 
             // Uploading sample test files from local disk to cloud storage

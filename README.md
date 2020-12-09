@@ -13,19 +13,17 @@ This repository contains [Examples](Examples) projects for [GroupDocs.Signature 
 ## Prerequisites
 
 + Visual Studio 2017 or Higher.
-
 + GroupDocs.Signature Cloud SDK for .NET.
-
-+ Get your AppSID and AppKey at [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) (free registration is required).
++ Get your ClientId and ClientSecret at [https://dashboard.groupdocs.cloud](https://dashboard.groupdocs.cloud) (free registration is required).
 
 ## How to Run the Examples?
 
 The package contains C# examples. Follow the given steps to proceed with project build:
 
-* Extract the downloaded project and open the solution file in Visual Studio
-* Right click on solution and press "Enable NuGet package Restore"
-* Edit RunExamples.cs and put appSid and appKey, obtained from https://dashboard.groupdocs.cloud there
-* Build and Run
++ Extract the downloaded project and open the solution file in Visual Studio
++ Right click on solution and press "Enable NuGet package Restore"
++ Edit RunExamples.cs and put ClientId and ClientSecret, obtained from https://dashboard.groupdocs.cloud there
++ Build and Run
 
 For more details, visit  [Getting Started](https://wiki.groupdocs.cloud/signaturecloud/getting-started/quick-start/).
 
