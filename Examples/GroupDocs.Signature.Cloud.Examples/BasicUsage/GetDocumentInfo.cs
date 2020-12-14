@@ -19,7 +19,7 @@ namespace GroupDocs.Signature.Cloud.Examples
                 {
 					FileInfo = new FileInfo
                     {
-						FilePath = "Pdf01_pages.pdf",
+						FilePath = "sample2.pdf",
 						Password = null,
 						VersionId = null,
 						StorageName = Constants.MyStorage,
