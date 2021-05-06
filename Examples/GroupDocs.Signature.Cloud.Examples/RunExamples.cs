@@ -20,36 +20,37 @@ namespace GroupDocs.Signature.Cloud.Examples
 
             #region Basic usage
             GetDocumentInfo.Run();
-            //GetSupportedBarcodeTypes.Run();
-            //GetSupportedFormats.Run();
-            //GetSupportedQrCodeTypes.Run();
+            GetSupportedBarcodeTypes.Run();
+            GetSupportedFormats.Run();
+            GetSupportedQrCodeTypes.Run();
+            GetDocumentPreview.Run();
             #endregion
 
             #region AdvancedUsage
             BarcodeSignature.Run();
-            //CollectionSignature.Run();
-            //DigitalSignature.Run();
-            //ImageSignature.Run();
-            //QrCodeSignature.Run();
-            //StampSignature.Run();
-            //TextSignature.Run();
+            CollectionSignature.Run();
+            DigitalSignature.Run();
+            ImageSignature.Run();
+            QrCodeSignature.Run();
+            StampSignature.Run();
+            TextSignature.Run();
 
             SearchBarcode.Run();
-            //SearchCollection.Run();
-            //SearchDigital.Run();
-            //SearchQrCode.Run();
+            SearchCollection.Run();
+            SearchDigital.Run();
+            SearchQrCode.Run();
 
             VerifyBarcode.Run();
-            //VerifyCollection.Run();
-            //VerifyDigital.Run();
-            //VerifyQrCode.Run();
-            //VerifyText.Run();
+            VerifyCollection.Run();
+            VerifyDigital.Run();
+            VerifyQrCode.Run();
+            VerifyText.Run();
 
             UpdateBarcode.Run();
-            //UpdateQrCode.Run();
+            UpdateQrCode.Run();
 
             DeleteBarcode.Run();
-            //DeleteQrCode.Run();
+            DeleteQrCode.Run();
 
             #endregion
 

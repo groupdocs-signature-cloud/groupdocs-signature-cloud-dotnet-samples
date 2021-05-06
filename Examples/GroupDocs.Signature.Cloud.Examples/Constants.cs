@@ -14,6 +14,7 @@ namespace GroupDocs.Signature.Cloud.Examples
         public static Configuration GetConfig()
         {
             var config = new Configuration(MyClientId, MyClientSecret);
+            config.ApiBaseUrl = "https://api.groupdocs.cloud";
             return config;
         }
 
@@ -24,7 +25,7 @@ namespace GroupDocs.Signature.Cloud.Examples
 			var folderApi = new FolderApi(configuration);
 			var fileApi = new FileApi(configuration);
 
-			var path = "..\\..\\..\\Resources";
+			var path = "..\\..\\..\\..\\Resources";
 
 			Console.WriteLine("File Upload Processing...");
 
